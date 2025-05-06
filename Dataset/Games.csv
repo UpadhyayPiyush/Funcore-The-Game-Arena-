@@ -1,0 +1,23 @@
+GameID,GameName,Category,IsMultiplayer
+1,Tic-Tac-Toe,Classic,False
+2,Connect Four,Classic,False
+3,2048,Classic,False
+4,Minesweeper,Classic,False
+5,Color Match,Classic,False
+6,Word Search,Puzzle,False
+7,Crossword Puzzle,Puzzle,False
+8,Sliding Puzzle,Puzzle,False
+9,Memory Match,Puzzle,False
+10,Tower of Hanoi,Puzzle,False
+11,Breakout,Arcade,False
+12,Tetris,Arcade,False
+13,Flappy Bird,Arcade,False
+14,Trivia Quiz,Word,False
+15,HangMan,Word,False
+16,Boggle,Word,False
+17,Typing Speed Test,Word,False
+18,Stick hero,Endless,False
+19,Catch the Falling Stars,Endless,False
+20,Chess,Multiplayer,True
+21,Rock Paper Scissors,Multiplayer,True
+22,Trivia Buzzer,Multiplayer,True
