@@ -2,11 +2,11 @@
 
 ## Overview 
 
-###This project focuses on analyzing user gameplay behavior across 20+ online games using SQL and Power BI. Complex SQL queries (25+) were written to extract insights such as game popularity, user engagement trends, top performers, and session patterns. A multi-page Power BI dashboard was developed with slicers, filters, and tooltips for interactive and visually rich storytelling.
+This project focuses on analyzing user gameplay behavior across 20+ online games using SQL and Power BI. Complex SQL queries (25+) were written to extract insights such as game popularity, user engagement trends, top performers, and session patterns. A multi-page Power BI dashboard was developed with slicers, filters, and tooltips for interactive and visually rich storytelling.
 
 ## Schema Strucutre 
 
-'''sql
+``` sql
 #Creating Users table
 CREATE TABLE Users (
     UserID INT PRIMARY KEY,
@@ -47,7 +47,8 @@ CREATE TABLE GameSession (
     Score INT,
     FOREIGN KEY (UserID) REFERENCES Users(UserID),
     FOREIGN KEY (GameID) REFERENCES Games(GameID)
-); '''
+);
+```
 
 ## Conclusion 
-###The project demonstrates how structured gameplay data can be transformed into actionable insights using SQL and Power BI. By leveraging advanced visualizations and interactive features, the final dashboard helps identify trends, highlight user performance, and support data-driven decision-making in the gaming environment.
+The project demonstrates how structured gameplay data can be transformed into actionable insights using SQL and Power BI. By leveraging advanced visualizations and interactive features, the final dashboard helps identify trends, highlight user performance, and support data-driven decision-making in the gaming environment.
