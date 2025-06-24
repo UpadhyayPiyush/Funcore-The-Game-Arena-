@@ -50,7 +50,7 @@ CREATE TABLE GameSession (
 );
 ```
 ## Demo
-https://github.com/UpadhyayPiyush/Funcore-The-Game-Arena-/blob/main/snapshot%20.png
+  ![Dashboard preview](https://github.com/UpadhyayPiyush/Funcore-The-Game-Arena-/blob/main/snapshot%20.png)
 
 ## Conclusion 
 The project demonstrates how structured gameplay data can be transformed into actionable insights using SQL and Power BI. By leveraging advanced visualizations and interactive features, the final dashboard helps identify trends, highlight user performance, and support data-driven decision-making in the gaming environment.
